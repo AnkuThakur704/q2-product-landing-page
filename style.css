@@ -135,3 +135,31 @@ main{
     color:rgb(0, 123, 255) ;
     transform: scale(0.9);
 }
+@media(max-width:500px){
+    body{
+        margin-bottom: 30px;
+    }
+    main{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .description{
+        height: 1200px;
+        padding: 20px;
+    }
+    .buttons{
+        width: 80px;
+    }
+    .shoe{
+        width: 200px;
+    }
+    .signup{
+        margin-left: 52px;
+    }
+    .logo{
+        width: 80px;
+    }
+    .tagline{
+        margin-left: 45px;
+    }
+}
