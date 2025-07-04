@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bitcount+Grid+Double:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 8vw;
+   margin-top: 4vh;
+   margin-left: 1vw;
+}
+header{
+    border: 1px solid gray;
+    
+    padding-bottom: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    box-shadow: 1px 1px 1px  gray;
+}
+.signup{
+    width: 6vw;
+    height: 4vh ;
+    margin-left: 72vw;
+    margin-top: 2.5vh;
+    border-radius: 3px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    font-weight: 600;
+}
+.shoe{
+    width: 30vw;
+    transition: all 2s;
+}
+.shoe:hover{
+    transform: rotateZ(-15deg);
+}
+.description{
+    width: 40vw;
+    height: 60vh;
+    background-color: #5dbfe6 ;
+    padding: 1vw;
+    border-radius: 3vh;
+    box-shadow: 1px 1px 10px #63b5d6;
+    color: white;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 4vh; 
+}
+.tagline{
+    margin-left: 3vw;
+    font-family: "Anton", sans-serif;
+    font-size: 4vh;
+    white-space: nowrap;
+    
+}
+.buy{
+    width: 7vw;
+    height: 5vh ;
+    border-radius: 3px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    font-weight: 100;
+    font-family: "Anton",sans-serif;
+}
+.thanks{
+    color: white;
+    font-weight: 600;
+}
+.form{
+    width: 30vw;
+    height: 50vh;
+    border: 1px solid gray;
+    
+    padding: 0.75vw;
+    border-radius: 0.75vw;
+    box-shadow: 1px 1px 0.75vw rgb(180, 151, 155);
+}
+.drop{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(54, 7, 90);
+}
+.fields{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75vw;
+}
+.send{
+    margin-top: 1.5vw;
+    border-radius: 0.325vw;
+    color: white;
+    background-color: rgb(0, 123, 255);
+    border: none;
+    padding: 0.6vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    transition: all 0.5s;
+}
+.in{
+    border-radius: 0.375vw;
+    width: 16vw;
+    border: 1px solid rgb(214, 209, 209);
+    padding: 0.75vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+.send:hover{
+    cursor: pointer;
+    background-color: rgb(214, 241, 255);
+    color:rgb(0, 123, 255) ;
+    transform: scale(0.9);
+}
+.thanks{
+    color: rgb(10, 133, 226);
+}
+.buttons{
+    transition: all 0.5s;
+    border: none;
+}
+.buttons:hover{
+     cursor: pointer;
+    background-color: rgb(214, 241, 255);
+    color:rgb(0, 123, 255) ;
+    transform: scale(0.9);
+}
