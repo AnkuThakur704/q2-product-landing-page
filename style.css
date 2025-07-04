@@ -135,16 +135,18 @@ main{
     color:rgb(0, 123, 255) ;
     transform: scale(0.9);
 }
-@media(max-width:500px){
+@media(max-width:350px){
     body{
+        
         margin-bottom: 30px;
     }
     main{
         flex-direction: column;
         gap: 30px;
+
     }
     .description{
-        height: 1200px;
+        height: 1600px;
         padding: 20px;
     }
     .buttons{
@@ -154,12 +156,24 @@ main{
         width: 200px;
     }
     .signup{
-        margin-left: 52px;
+        margin-left: 30px;
+        font-size: 10px;
+        width: 80px;
     }
     .logo{
         width: 80px;
     }
     .tagline{
-        margin-left: 45px;
+        margin-left: 30px;
+    }
+    .form{
+        width: 280px;
+        height: 300px;
+    }
+    .in{
+        width: 180px;
+    }
+    .fields{
+        gap: 20px;
     }
 }

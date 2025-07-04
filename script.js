@@ -16,7 +16,7 @@ function Register() {
                 <input class="in" type="email" placeholder="email address">
                 <input  class="in" type="text" placeholder="Create a password" spellcheck="true">
                 <div class="sent">
-                <button class="send" onclick="sent()">Send</button>
+                <button class="send" onclick="sent()">Submit</button>
             </div>
              </div>    
         </div>`;
